@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanview Retreat | Luxury Hotel</title>
+    <link rel="stylesheet" href="hotel2.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Oceanview Retreat</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Our Rooms</a></li>
+                <li><a href="#reservation">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Escape to Paradise</h1>
+            <p>Experience unmatched luxury and breathtaking ocean views.</p>
+            <a href="#reservation" class="btn">Book Your Stay</a>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms-section">
+        <h2>Accommodations</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <h3>Standard Room</h3>
+                <p>Cozy and elegant, featuring a queen bed and city views.</p>
+                <span class="price">$150 / night</span>
+            </div>
+            <div class="room-card">
+                <h3>Ocean View Deluxe</h3>
+                <p>Spacious room with a king bed and a private balcony facing the sea.</p>
+                <span class="price">$280 / night</span>
+            </div>
+            <div class="room-card">
+                <h3>Presidential Suite</h3>
+                <p>Ultimate luxury with a private pool, living area, and panoramic views.</p>
+                <span class="price">$850 / night</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation-section">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" required>
+            </div>
+            <div class="form-group">
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" required>
+                    <option value="Standard Room">Standard Room</option>
+                    <option value="Ocean View Deluxe">Ocean View Deluxe</option>
+                    <option value="Presidential Suite">Presidential Suite</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="guests">Guests:</label>
+                <input type="number" id="guests" min="1" max="10" value="2" required>
+            </div>
+            <button type="submit" class="btn">Check Availability</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Oceanview Retreat. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

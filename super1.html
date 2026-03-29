@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart Supermarket</title>
+    <link rel="stylesheet" href="super2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🛒 FreshCart</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aisles">Aisles</a></li>
+                <li><a href="#deals">Weekly Deals</a></li>
+                <li class="cart-container">
+                    <span class="cart-icon">Basket:</span> 
+                    <span id="cart-count" class="badge">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Groceries, Delivered.</h1>
+            <p>Shop local produce, daily essentials, and weekly specials directly from your phone or computer.</p>
+            <a href="#deals" class="btn">Shop Weekly Deals</a>
+        </div>
+    </section>
+
+    <section id="deals" class="products-section">
+        <h2>Fresh Arrivals</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?auto=format&fit=crop&w=500&q=80" alt="Bananas" class="product-img">
+                <div class="product-info">
+                    <h3>Organic Bananas</h3>
+                    <p class="unit">1 lb</p>
+                    <span class="price">$1.29</span>
+                    <button class="add-btn">Add to Basket</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=500&q=80" alt="Milk" class="product-img">
+                <div class="product-info">
+                    <h3>Whole Milk</h3>
+                    <p class="unit">1 Gallon</p>
+                    <span class="price">$3.49</span>
+                    <button class="add-btn">Add to Basket</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80" alt="Bread" class="product-img">
+                <div class="product-info">
+                    <h3>Artisan Sourdough</h3>
+                    <p class="unit">1 Loaf</p>
+                    <span class="price">$4.99</span>
+                    <button class="add-btn">Add to Basket</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=500&q=80" alt="Tomatoes" class="product-img">
+                <div class="product-info">
+                    <h3>Vine Tomatoes</h3>
+                    <p class="unit">1 lb</p>
+                    <span class="price">$2.99</span>
+                    <button class="add-btn">Add to Basket</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FreshCart Supermarket. Quality in every aisle.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
