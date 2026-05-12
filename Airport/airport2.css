@@ -175,3 +175,20 @@ footer {
     background-color: #002244;
     color: #888;
 }
+@media (max-width: 768px) {
+    .container, .main-content, section {
+        width: 100% !important;
+        padding: 10px !important;
+        margin: 0 !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .row, .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
